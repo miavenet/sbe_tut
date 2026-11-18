@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [claim: WP4-CODEC] Course-local logged activation and time input. -->
+<sbe:messageSchema xmlns:sbe="http://fixprotocol.io/2016/sbe" package="control" id="93" version="0" byteOrder="littleEndian">
+ <types><composite name="messageHeader"><type name="blockLength" primitiveType="uint16"/><type name="templateId" primitiveType="uint16"/><type name="schemaId" primitiveType="uint16"/><type name="version" primitiveType="uint16"/></composite></types>
+ <sbe:message name="Control" id="2"><field name="rule" id="1" type="uint32"/><field name="tick" id="2" type="uint64"/></sbe:message>
+</sbe:messageSchema>

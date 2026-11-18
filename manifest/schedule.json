@@ -1,0 +1,362 @@
+{
+  "estimated_core_minutes": 325,
+  "estimated_review_sweep_minutes": 138,
+  "estimated_setup_minutes": 1,
+  "estimated_primer_minutes": 3,
+  "exam_delay_days": 7,
+  "first_delay_days": 1,
+  "first_exposure_days": [
+    1,
+    3,
+    6,
+    10,
+    14
+  ],
+  "lessons": [
+    {
+      "concepts": [
+        {
+          "completion": [
+            "L01-C1"
+          ],
+          "id": "L01-LAYOUT",
+          "independent": [
+            "L01-R1"
+          ],
+          "pretests": [
+            "L01-P1"
+          ],
+          "worked": "L01-LAYOUT"
+        },
+        {
+          "completion": [
+            "L01-C2"
+          ],
+          "id": "L01-SEMANTICS",
+          "independent": [
+            "L01-I1",
+            "L01-T1",
+            "L01-R2"
+          ],
+          "pretests": [
+            "L01-P2"
+          ],
+          "worked": "L01-SEMANTICS"
+        }
+      ],
+      "id": "L01",
+      "integrate": [
+        "L01-INT"
+      ],
+      "requires": []
+    },
+    {
+      "concepts": [
+        {
+          "completion": [
+            "L02-C1"
+          ],
+          "id": "L02-INITIALIZATION",
+          "independent": [
+            "L02-R1"
+          ],
+          "pretests": [
+            "L02-P1"
+          ],
+          "worked": "L02-INITIALIZATION"
+        },
+        {
+          "completion": [
+            "L02-C2"
+          ],
+          "id": "L02-OWNERSHIP",
+          "independent": [
+            "L02-I1"
+          ],
+          "pretests": [
+            "L02-P2"
+          ],
+          "worked": "L02-OWNERSHIP"
+        },
+        {
+          "completion": [
+            "L02-C3"
+          ],
+          "id": "L02-ALLOCATION",
+          "independent": [
+            "L02-T1",
+            "L02-R2"
+          ],
+          "pretests": [
+            "L02-P3"
+          ],
+          "worked": "L02-ALLOCATION"
+        }
+      ],
+      "id": "L02",
+      "integrate": [
+        "L02-INT"
+      ],
+      "requires": [
+        "L01"
+      ]
+    },
+    {
+      "concepts": [
+        {
+          "completion": [
+            "L03-C1"
+          ],
+          "id": "L03-CONTRACT",
+          "independent": [
+            "L03-R1"
+          ],
+          "pretests": [
+            "L03-P1"
+          ],
+          "worked": "L03-CONTRACT"
+        },
+        {
+          "completion": [
+            "L03-C2"
+          ],
+          "id": "L03-ACTING",
+          "independent": [
+            "L03-R2",
+            "L03-R3"
+          ],
+          "pretests": [
+            "L03-P2"
+          ],
+          "worked": "L03-ACTING"
+        },
+        {
+          "completion": [
+            "L03-C3"
+          ],
+          "id": "L03-ARCHIVE",
+          "independent": [
+            "L03-T1"
+          ],
+          "pretests": [
+            "L03-P3"
+          ],
+          "worked": "L03-ARCHIVE"
+        }
+      ],
+      "id": "L03",
+      "integrate": [
+        "L03-INT"
+      ],
+      "requires": [
+        "L02"
+      ]
+    },
+    {
+      "concepts": [
+        {
+          "completion": [
+            "L04-C1"
+          ],
+          "id": "L04-CURSOR",
+          "independent": [
+            "L04-R1"
+          ],
+          "pretests": [
+            "L04-P1"
+          ],
+          "worked": "L04-CURSOR"
+        },
+        {
+          "completion": [
+            "L04-C2"
+          ],
+          "id": "L04-BOUNDS",
+          "independent": [
+            "L04-R2",
+            "L04-J1"
+          ],
+          "pretests": [
+            "L04-P2"
+          ],
+          "worked": "L04-BOUNDS"
+        },
+        {
+          "completion": [
+            "L04-C3"
+          ],
+          "id": "L04-DIAGNOSTICS",
+          "independent": [
+            "L04-R3"
+          ],
+          "pretests": [
+            "L04-P3"
+          ],
+          "worked": "L04-DIAGNOSTICS"
+        },
+        {
+          "completion": [
+            "L04-C4"
+          ],
+          "id": "L04-NESTED",
+          "independent": [
+            "L04-T1",
+            "L04-T2"
+          ],
+          "pretests": [
+            "L04-P4"
+          ],
+          "worked": "L04-NESTED"
+        }
+      ],
+      "id": "L04",
+      "integrate": [
+        "L04-INT"
+      ],
+      "requires": [
+        "L03"
+      ]
+    },
+    {
+      "concepts": [
+        {
+          "completion": [
+            "L05-C1"
+          ],
+          "id": "L05-FRAME",
+          "independent": [
+            "L05-R1",
+            "L05-R4"
+          ],
+          "pretests": [
+            "L05-P1"
+          ],
+          "worked": "L05-FRAME"
+        },
+        {
+          "completion": [
+            "L05-C2"
+          ],
+          "id": "L05-REPLAY",
+          "independent": [
+            "L05-R2",
+            "L05-J1"
+          ],
+          "pretests": [
+            "L05-P2"
+          ],
+          "worked": "L05-REPLAY"
+        },
+        {
+          "completion": [
+            "L05-C3"
+          ],
+          "id": "L05-RELEASE",
+          "independent": [
+            "L05-R3"
+          ],
+          "pretests": [
+            "L05-P3"
+          ],
+          "worked": "L05-RELEASE"
+        },
+        {
+          "completion": [
+            "L05-C4"
+          ],
+          "id": "L05-MIGRATE",
+          "independent": [
+            "L05-T1",
+            "L05-T2"
+          ],
+          "pretests": [
+            "L05-P4"
+          ],
+          "worked": "L05-MIGRATE"
+        }
+      ],
+      "id": "L05",
+      "integrate": [
+        "L05-INT"
+      ],
+      "requires": [
+        "L04"
+      ]
+    }
+  ],
+  "miss_partial_low_confidence_days": 1,
+  "objectives": [
+    {
+      "id": "WP1-O1",
+      "production": [
+        "L01-R1",
+        "L01-R2",
+        "L01-I1"
+      ],
+      "transfer": [
+        "L01-T1"
+      ]
+    },
+    {
+      "id": "WP1-O2",
+      "production": [
+        "L02-R1",
+        "L02-R2",
+        "L02-I1"
+      ],
+      "transfer": [
+        "L02-T1"
+      ]
+    },
+    {
+      "id": "WP2-O3",
+      "production": [
+        "L03-R1",
+        "L03-R2",
+        "L03-R3"
+      ],
+      "transfer": [
+        "L03-T1"
+      ]
+    },
+    {
+      "id": "WP3-O4",
+      "production": [
+        "L04-R1",
+        "L04-R2",
+        "L04-R3"
+      ],
+      "transfer": [
+        "L04-J1",
+        "L04-T1",
+        "L04-T2"
+      ]
+    },
+    {
+      "id": "WP4-O5",
+      "production": [
+        "L05-R1",
+        "L05-R2",
+        "L05-R3",
+        "L05-R4"
+      ],
+      "transfer": [
+        "L05-J1",
+        "L05-T1",
+        "L05-T2"
+      ]
+    }
+  ],
+  "optional_minutes": 60,
+  "review_slots": {
+    "count": 12,
+    "minutes": 5,
+    "overflow": "reviews normally use up to five minutes; one longer due card may use its full estimate when it fits the sitting; remaining due cards stay scheduled"
+  },
+  "schema_version": 1,
+  "successful_gaps_days": [
+    3,
+    7,
+    14
+  ]
+}

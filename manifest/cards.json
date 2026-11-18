@@ -1,0 +1,785 @@
+{
+  "schema_version": 1,
+  "cards": {
+    "L01-P1": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "pretest",
+      "topic": "layout",
+      "minutes": 1,
+      "Source": "[SBE spec: Field Encoding, field presence](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/02FieldEncoding.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-LAYOUT": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-01",
+      "type": null,
+      "topic": null,
+      "minutes": 4,
+      "Source": "[labs/l01/order-v0.xml](../labs/l01/order-v0.xml), [golden-layout.tsv](../labs/l01/fixtures/golden-layout.tsv), [SBE spec: Message Structure](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C1": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "completion",
+      "topic": "layout",
+      "minutes": 2,
+      "Source": "[golden-layout.tsv](../labs/l01/fixtures/golden-layout.tsv), [SBE spec: Message Structure](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md)",
+      "AcceptIf": "check(checks/l01/chk_complete_offsets.sh)",
+      "RejectIf": ""
+    },
+    "L01-R1": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "recall",
+      "topic": "layout",
+      "minutes": 2,
+      "Source": "[labs/l01/order-v0.xml](../labs/l01/order-v0.xml), [golden-layout.tsv](../labs/l01/fixtures/golden-layout.tsv)",
+      "AcceptIf": "check(checks/l01/chk_recall_offsets.sh)",
+      "RejectIf": ""
+    },
+    "L01-P2": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "pretest",
+      "topic": "semantics",
+      "minutes": 1,
+      "Source": "[labs/l01/order-v0.xml](../labs/l01/order-v0.xml), [SBE spec: Field Encoding](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/02FieldEncoding.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-SEMANTICS": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-01",
+      "type": null,
+      "topic": null,
+      "minutes": 5,
+      "Source": "[labs/l01/order-v0.xml](../labs/l01/order-v0.xml), [labs/l01/worked/submission.hpp](../labs/l01/worked/submission.hpp), [SBE spec: Field Encoding](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/02FieldEncoding.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C2": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "completion",
+      "topic": "semantics",
+      "minutes": 3,
+      "Source": "[labs/l01/worked/submission.hpp](../labs/l01/worked/submission.hpp), [labs/l01/worked/layout.json](../labs/l01/worked/layout.json)",
+      "AcceptIf": "check(checks/chk_l01_wire.sh)",
+      "RejectIf": ""
+    },
+    "L01-I1": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "recall",
+      "topic": "semantics",
+      "minutes": 3,
+      "Source": "[labs/l01/fixtures/cases.json](../labs/l01/fixtures/cases.json), [labs/l01/order-v0.xml](../labs/l01/order-v0.xml)",
+      "AcceptIf": "check(checks/l01/chk_encode.sh)",
+      "RejectIf": ""
+    },
+    "L01-T1": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "transfer",
+      "topic": "semantics",
+      "minutes": 4,
+      "Source": "[labs/l01/market.xml](../labs/l01/market.xml), [labs/l01/worked/submission.hpp](../labs/l01/worked/submission.hpp)",
+      "AcceptIf": "check(checks/chk_l01_wire.sh)",
+      "RejectIf": ""
+    },
+    "L01-R2": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "recall",
+      "topic": "semantics",
+      "minutes": 2,
+      "Source": "[labs/l01/fixtures/faults/null-zero/submission.hpp](../labs/l01/fixtures/faults/null-zero/submission.hpp), [labs/l01/fixtures/order-v0.bin](../labs/l01/fixtures/order-v0.bin)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-INT": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "synthesize",
+      "topic": "integration",
+      "minutes": 3,
+      "Source": "[SBE spec: Field Encoding](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/02FieldEncoding.md), [SBE spec: Message Structure](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-P1": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "pretest",
+      "topic": "initialization",
+      "minutes": 1,
+      "Source": "[checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-INITIALIZATION": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-02",
+      "type": null,
+      "topic": null,
+      "minutes": 3,
+      "Source": "[labs/l02/order-padded.xml](../labs/l02/order-padded.xml), [labs/l02/worked/submission.hpp](../labs/l02/worked/submission.hpp), [checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-C1": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "completion",
+      "topic": "initialization",
+      "minutes": 3,
+      "Source": "[labs/l02/worked/submission.hpp](../labs/l02/worked/submission.hpp), [labs/l02/order-padded.xml](../labs/l02/order-padded.xml)",
+      "AcceptIf": "check(checks/chk_l02_buffers.sh)",
+      "RejectIf": ""
+    },
+    "L02-R1": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "recall",
+      "topic": "initialization",
+      "minutes": 2,
+      "Source": "[labs/l02/fixtures/faults/zero-only/submission.hpp](../labs/l02/fixtures/faults/zero-only/submission.hpp), [checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-P2": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "pretest",
+      "topic": "ownership",
+      "minutes": 1,
+      "Source": "[checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-OWNERSHIP": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-02",
+      "type": null,
+      "topic": null,
+      "minutes": 4,
+      "Source": "[labs/l02/audit.hpp](../labs/l02/audit.hpp), [labs/l02/worked/submission.hpp](../labs/l02/worked/submission.hpp), [checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-C2": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "completion",
+      "topic": "ownership",
+      "minutes": 2,
+      "Source": "[labs/l02/worked/submission.hpp](../labs/l02/worked/submission.hpp), [labs/l02/audit.hpp](../labs/l02/audit.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-I1": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "recall",
+      "topic": "ownership",
+      "minutes": 4,
+      "Source": "[labs/l02/independent/submission.hpp](../labs/l02/independent/submission.hpp), [labs/l02/audit.hpp](../labs/l02/audit.hpp)",
+      "AcceptIf": "check(checks/l02/chk_ownership.sh)",
+      "RejectIf": ""
+    },
+    "L02-P3": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "pretest",
+      "topic": "allocation",
+      "minutes": 1,
+      "Source": "[checks/l02/alloc.cpp](../checks/l02/alloc.cpp), [checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-ALLOCATION": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-02",
+      "type": null,
+      "topic": null,
+      "minutes": 3,
+      "Source": "[checks/l02/alloc.cpp](../checks/l02/alloc.cpp), [checks/l02/runner.cpp](../checks/l02/runner.cpp), [labs/l02/fixtures/faults/allocating/submission.hpp](../labs/l02/fixtures/faults/allocating/submission.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-C3": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "completion",
+      "topic": "allocation",
+      "minutes": 2,
+      "Source": "[checks/l02/runner.cpp](../checks/l02/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-T1": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "transfer",
+      "topic": "ownership",
+      "minutes": 4,
+      "Source": "[labs/l02/worked/submission.hpp](../labs/l02/worked/submission.hpp), [labs/l02/audit.hpp](../labs/l02/audit.hpp), [checks/l02/alloc.cpp](../checks/l02/alloc.cpp)",
+      "AcceptIf": "check(checks/chk_l02_buffers.sh)",
+      "RejectIf": ""
+    },
+    "L02-R2": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "recall",
+      "topic": "allocation",
+      "minutes": 2,
+      "Source": "[checks/l02/runner.cpp](../checks/l02/runner.cpp), [checks/l02/alloc.cpp](../checks/l02/alloc.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-INT": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "synthesize",
+      "topic": "integration",
+      "minutes": 3,
+      "Source": "[checks/l02/runner.cpp](../checks/l02/runner.cpp), [labs/l02/worked/submission.hpp](../labs/l02/worked/submission.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-P1": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "pretest",
+      "topic": "evolution",
+      "minutes": 1,
+      "Source": "[labs/l03/fixtures/bad/mid-block.xml](../labs/l03/fixtures/bad/mid-block.xml), [SBE spec: Schema Extension Mechanism](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/05SchemaExtensionMechanism.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-CONTRACT": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-03",
+      "type": null,
+      "topic": null,
+      "minutes": 5,
+      "Source": "[labs/l03/worked/order-v1.xml](../labs/l03/worked/order-v1.xml), [checks/l03/evolution.py](../checks/l03/evolution.py), [SBE spec: Schema Extension Mechanism](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/05SchemaExtensionMechanism.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-C1": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "completion",
+      "topic": "evolution",
+      "minutes": 3,
+      "Source": "[labs/l03/worked/order-v1.xml](../labs/l03/worked/order-v1.xml), [checks/l03/evolution.py](../checks/l03/evolution.py)",
+      "AcceptIf": "check(checks/l03/chk_schema.sh)",
+      "RejectIf": ""
+    },
+    "L03-R1": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "recall",
+      "topic": "evolution",
+      "minutes": 3,
+      "Source": "[labs/l03/composite-work/order-v1.xml](../labs/l03/composite-work/order-v1.xml), [labs/l03/fixtures/bad/composite.xml](../labs/l03/fixtures/bad/composite.xml), [checks/l03/evolution.py](../checks/l03/evolution.py)",
+      "AcceptIf": "check(checks/l03/chk_schema.sh)",
+      "RejectIf": ""
+    },
+    "L03-P2": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "pretest",
+      "topic": "acting-metadata",
+      "minutes": 1,
+      "Source": "[labs/l03/fixtures/order-v1.bin](../labs/l03/fixtures/order-v1.bin), [checks/l03/check.py](../checks/l03/check.py)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-ACTING": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-03",
+      "type": null,
+      "topic": null,
+      "minutes": 4,
+      "Source": "[labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp), [checks/l03/check.py](../checks/l03/check.py), [SBE spec: Schema Extension Mechanism](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/05SchemaExtensionMechanism.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-C2": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "completion",
+      "topic": "acting-metadata",
+      "minutes": 3,
+      "Source": "[labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp)",
+      "AcceptIf": "check(checks/l03/chk_matrix.sh)",
+      "RejectIf": ""
+    },
+    "L03-R2": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "recall",
+      "topic": "acting-metadata",
+      "minutes": 3,
+      "Source": "[labs/l03/work/submission.hpp](../labs/l03/work/submission.hpp), [labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp)",
+      "AcceptIf": "check(checks/l03/chk_matrix.sh)",
+      "RejectIf": ""
+    },
+    "L03-R3": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "recall",
+      "topic": "acting-metadata",
+      "minutes": 2,
+      "Source": "[labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp), [SBE spec: Message Structure](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-P3": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "pretest",
+      "topic": "archive",
+      "minutes": 1,
+      "Source": "[labs/l03/fixtures/order-v0.bin](../labs/l03/fixtures/order-v0.bin), [labs/l03/fixtures/order-v1.bin](../labs/l03/fixtures/order-v1.bin)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-ARCHIVE": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-03",
+      "type": null,
+      "topic": null,
+      "minutes": 3,
+      "Source": "[labs/l03/api.hpp](../labs/l03/api.hpp), [labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp), [checks/l03/check.py](../checks/l03/check.py), [SBE spec: Message Structure, framing](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-C3": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "completion",
+      "topic": "archive",
+      "minutes": 2,
+      "Source": "[labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp), [labs/l03/api.hpp](../labs/l03/api.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-T1": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "transfer",
+      "topic": "archive",
+      "minutes": 6,
+      "Source": "[labs/l03/independent/submission.hpp](../labs/l03/independent/submission.hpp), [labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp), [checks/l03/check.py](../checks/l03/check.py)",
+      "AcceptIf": "check(checks/l03/chk_archive.sh)",
+      "RejectIf": ""
+    },
+    "L03-INT": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "synthesize",
+      "topic": "evolution",
+      "minutes": 3,
+      "Source": "[SBE spec: Schema Extension Mechanism](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/05SchemaExtensionMechanism.md), [labs/l03/worked/submission.hpp](../labs/l03/worked/submission.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-P1": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "pretest",
+      "topic": "cursor",
+      "minutes": 1,
+      "Source": "[v1 fixture](../labs/l04/fixtures/order-v1.bin) read by [the precedence probe](../checks/l04/precedence.cpp) (mode `skip`)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-CURSOR": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-04",
+      "type": null,
+      "topic": null,
+      "minutes": 7,
+      "Source": "[FIX SBE 1.0 Message Structure](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md), [precedence probe](../checks/l04/precedence.cpp), [v1 schema](../labs/l04/order-v1.xml)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C1": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "completion",
+      "topic": "cursor",
+      "minutes": 3,
+      "Source": "[worked reader](../labs/l04/worked/submission.hpp), [check runner](../checks/l04/runner.cpp)",
+      "AcceptIf": "check(checks/l04/chk_order.sh)",
+      "RejectIf": ""
+    },
+    "L04-R1": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "recall",
+      "topic": "cursor",
+      "minutes": 4,
+      "Source": "[FIX SBE 1.0 Message Structure: root block length](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md), [v1 fixture](../labs/l04/fixtures/order-v1.bin)",
+      "AcceptIf": "check(checks/l04/chk_order.sh)",
+      "RejectIf": ""
+    },
+    "L04-P2": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "pretest",
+      "topic": "bounds",
+      "minutes": 1,
+      "Source": "[v1 fixture](../labs/l04/fixtures/order-v1.bin) (85 bytes)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-BOUNDS": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-04",
+      "type": null,
+      "topic": null,
+      "minutes": 7,
+      "Source": "[worked validator](../labs/l04/worked/submission.hpp), [lab Cursor](../labs/l04/api.hpp), [FIX SBE 1.0 Field Encoding: integer null and max values](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/02FieldEncoding.md), [v1 schema](../labs/l04/order-v1.xml)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C2": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "completion",
+      "topic": "bounds",
+      "minutes": 3,
+      "Source": "[worked validator](../labs/l04/worked/submission.hpp), [check runner](../checks/l04/runner.cpp)",
+      "AcceptIf": "check(checks/l04/chk_validate.sh)",
+      "RejectIf": ""
+    },
+    "L04-R2": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "recall",
+      "topic": "bounds",
+      "minutes": 3,
+      "Source": "[worked validator](../labs/l04/worked/submission.hpp), [lab Cursor](../labs/l04/api.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-J1": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "analyze",
+      "topic": "bounds",
+      "minutes": 3,
+      "Source": "[worked reader and validator](../labs/l04/worked/submission.hpp), [v1 fixture](../labs/l04/fixtures/order-v1.bin), [lab Cursor](../labs/l04/api.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-P3": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "pretest",
+      "topic": "diagnostics",
+      "minutes": 2,
+      "Source": "[diagnostics pack](../checks/l04/diagnostics.py), [strict wrapper](../tools/sbe_tool.sh), [E7 fixture](../labs/l04/fixtures/bad/e7.xml)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-DIAGNOSTICS": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-04",
+      "type": null,
+      "topic": null,
+      "minutes": 5,
+      "Source": "[dump tool](../checks/l04/dump.py), [diagnostics pack](../checks/l04/diagnostics.py), [IR inspector](../checks/l04/InspectIr.java), [precedence probe](../checks/l04/precedence.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C3": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "completion",
+      "topic": "diagnostics",
+      "minutes": 2,
+      "Source": "[diagnostics pack](../checks/l04/diagnostics.py), [IR inspector](../checks/l04/InspectIr.java)",
+      "AcceptIf": "check(checks/l04/chk_ir.py)",
+      "RejectIf": ""
+    },
+    "L04-R3": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "recall",
+      "topic": "diagnostics",
+      "minutes": 2,
+      "Source": "[diagnostics pack](../checks/l04/diagnostics.py), [strict wrapper](../tools/sbe_tool.sh), [compile wrapper](../tools/compile.sh)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-P4": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "pretest",
+      "topic": "nested",
+      "minutes": 1,
+      "Source": "[nested schema](../labs/l04/nested.xml), [nested fixture](../labs/l04/fixtures/nested.bin)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-NESTED": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-04",
+      "type": null,
+      "topic": null,
+      "minutes": 4,
+      "Source": "[nested schema](../labs/l04/nested.xml), [nested fixture](../labs/l04/fixtures/nested.bin), [FIX SBE 1.0 Message Structure: nested repeating groups](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/03MessageStructure.md)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C4": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "completion",
+      "topic": "nested",
+      "minutes": 2,
+      "Source": "[worked nested reader](../labs/l04/worked/submission.hpp), [nested schema](../labs/l04/nested.xml)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-T1": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "transfer",
+      "topic": "nested",
+      "minutes": 5,
+      "Source": "[check runner](../checks/l04/runner.cpp), [nested schema](../labs/l04/nested.xml)",
+      "AcceptIf": "check(checks/l04/chk_nested.sh)",
+      "RejectIf": ""
+    },
+    "L04-T2": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "transfer",
+      "topic": "diagnostics",
+      "minutes": 3,
+      "Source": "[dump tool](../checks/l04/dump.py), [nested fixture](../labs/l04/fixtures/nested.bin), [corrupted fixture](../labs/l04/fixtures/nested-bad-length.bin)",
+      "AcceptIf": "check(checks/l04/chk_diagnose.py)",
+      "RejectIf": ""
+    },
+    "L04-INT": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "synthesize",
+      "topic": "integration",
+      "minutes": 2,
+      "Source": "[worked reader](../labs/l04/worked/submission.hpp), [dump tool](../checks/l04/dump.py)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-P1": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "pretest",
+      "topic": "framing",
+      "minutes": 1,
+      "Source": "[envelope fixture](../labs/l05/fixtures/envelope.bin) (117 bytes), [lab frame layout](../labs/l05/api.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-FRAME": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-05",
+      "type": null,
+      "topic": null,
+      "minutes": 7,
+      "Source": "[lab frame layout and checksum](../labs/l05/api.hpp), [envelope fixture](../labs/l05/fixtures/envelope.bin), [frame check runner](../checks/l05/runner.cpp), [xxHash](https://github.com/Cyan4973/xxHash)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C1": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "completion",
+      "topic": "framing",
+      "minutes": 3,
+      "Source": "[worked frame code](../labs/l05/worked/submission.hpp), [frame check runner](../checks/l05/runner.cpp)",
+      "AcceptIf": "check(checks/l05/chk_frame.sh)",
+      "RejectIf": ""
+    },
+    "L05-R1": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "recall",
+      "topic": "framing",
+      "minutes": 4,
+      "Source": "[frame check runner](../checks/l05/runner.cpp), [lab frame layout](../labs/l05/api.hpp)",
+      "AcceptIf": "check(checks/l05/chk_frame.sh)",
+      "RejectIf": ""
+    },
+    "L05-R4": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "recall",
+      "topic": "enum-policy",
+      "minutes": 5,
+      "Source": "[schema with Side enum](../labs/l05/order-v1.xml), [enum probe](../checks/l05/enum_probe.cpp), [acceptance suite](../checks/l05/acceptance.py), [FIX SBE 1.0 Field Encoding: enumeration and field value validation](https://github.com/FIXTradingCommunity/fix-simple-binary-encoding/blob/master/v1-0-STANDARD/doc/02FieldEncoding.md)",
+      "AcceptIf": "check(checks/l05/chk_frame.sh)",
+      "RejectIf": ""
+    },
+    "L05-P2": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "pretest",
+      "topic": "replay",
+      "minutes": 1,
+      "Source": "[replay check runner](../checks/l05/runner.cpp) (`hidden_rule_totals=3,6`)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-REPLAY": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-05",
+      "type": null,
+      "topic": null,
+      "minutes": 7,
+      "Source": "[lab queue and state](../labs/l05/api.hpp), [replay check runner](../checks/l05/runner.cpp), [Control schema](../labs/l05/control.xml)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C2": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "completion",
+      "topic": "backpressure",
+      "minutes": 3,
+      "Source": "[worked offer](../labs/l05/worked/submission.hpp), [replay check runner](../checks/l05/runner.cpp)",
+      "AcceptIf": "check(checks/l05/chk_replay.sh)",
+      "RejectIf": ""
+    },
+    "L05-R2": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "recall",
+      "topic": "replay",
+      "minutes": 4,
+      "Source": "[worked receive](../labs/l05/worked/submission.hpp), [replay check runner](../checks/l05/runner.cpp)",
+      "AcceptIf": "check(checks/l05/chk_replay.sh)",
+      "RejectIf": ""
+    },
+    "L05-J1": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "analyze",
+      "topic": "replay",
+      "minutes": 3,
+      "Source": "[worked receive](../labs/l05/worked/submission.hpp), [replay check runner](../checks/l05/runner.cpp), [lab apply](../labs/l05/codec.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-P3": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "pretest",
+      "topic": "release",
+      "minutes": 1,
+      "Source": "[release traces](../labs/l05/fixtures/release-traces.hpp) (event \"other follower persists\": mask 5 = non-gated + quorum)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-RELEASE": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-05",
+      "type": null,
+      "topic": null,
+      "minutes": 6,
+      "Source": "[lab Boundary and Policy](../labs/l05/api.hpp), [release traces](../labs/l05/fixtures/release-traces.hpp), [release check runner](../checks/l05/runner.cpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C3": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "completion",
+      "topic": "release",
+      "minutes": 2,
+      "Source": "[worked release](../labs/l05/worked/submission.hpp), [release check runner](../checks/l05/runner.cpp)",
+      "AcceptIf": "check(checks/l05/chk_release.sh)",
+      "RejectIf": ""
+    },
+    "L05-R3": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "recall",
+      "topic": "release",
+      "minutes": 3,
+      "Source": "[worked release](../labs/l05/worked/submission.hpp), [release traces](../labs/l05/fixtures/release-traces.hpp)",
+      "AcceptIf": "check(checks/l05/chk_release.sh)",
+      "RejectIf": ""
+    },
+    "L05-P4": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "pretest",
+      "topic": "migration",
+      "minutes": 1,
+      "Source": "[worked receive](../labs/l05/worked/submission.hpp) (reserved check), [migration check](../checks/l05/migration.py)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-MIGRATE": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-05",
+      "type": null,
+      "topic": null,
+      "minutes": 7,
+      "Source": "[worked migration proposal](../labs/l05/worked/migration.json), [migration check](../checks/l05/migration.py), [Order schema (Decimal)](../labs/l05/order-v1.xml)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C4": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "completion",
+      "topic": "migration",
+      "minutes": 2,
+      "Source": "[migration check](../checks/l05/migration.py), [worked migration proposal](../labs/l05/worked/migration.json)",
+      "AcceptIf": "check(checks/l05/migration.py)",
+      "RejectIf": ""
+    },
+    "L05-T1": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "transfer",
+      "topic": "archived-frame",
+      "minutes": 5,
+      "Source": "[full check](../checks/l05/check.py), [check runner](../checks/l05/runner.cpp), [worked solution](../labs/l05/worked/submission.hpp)",
+      "AcceptIf": "check(checks/chk_l05_sequencer.sh)",
+      "RejectIf": ""
+    },
+    "L05-T2": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "transfer",
+      "topic": "migration",
+      "minutes": 4,
+      "Source": "[worked migration proposal](../labs/l05/worked/migration.json)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-INT": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "synthesize",
+      "topic": "integration",
+      "minutes": 2,
+      "Source": "[replay check runner](../checks/l05/runner.cpp), [release traces](../labs/l05/fixtures/release-traces.hpp)",
+      "AcceptIf": "",
+      "RejectIf": ""
+    }
+  }
+}

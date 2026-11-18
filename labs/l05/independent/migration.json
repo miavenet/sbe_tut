@@ -1,0 +1,59 @@
+{
+  "proposal_only": true,
+  "envelope_bytes": 32,
+  "payload_limit": 1408,
+  "reserved": 1,
+  "msg_type": 60000,
+  "msg_type_status": "proposed-unallocated",
+  "schema_id": 91,
+  "template_id": 1,
+  "versions": [
+    0,
+    1,
+    2
+  ],
+  "version_2_policy": "fixed-optional-tails-only",
+  "source_exponent": -2,
+  "target_scale": 10000,
+  "conversion_multiplier": 100,
+  "overflow_policy": "reject-before-multiply",
+  "null_policy": "preserve absence using the explicitly chosen destination representation; zero remains a value",
+  "mapped": {
+    "price": "convert the toy exponent -2 to integer scale 1e4 with checked multiplication",
+    "quantity": "validate domain before conversion",
+    "side": "map known values explicitly; reject unknown values",
+    "stopPrice": "preserve the null versus zero distinction",
+    "symbol": "resolve through the destination reference data",
+    "orderId": "map the request identity explicitly",
+    "flags": "map each recognized flag explicitly"
+  },
+  "omitted": [
+    "timestamps",
+    "external identifiers",
+    "execution instructions",
+    "venue extensions"
+  ],
+  "toy_only": [
+    "fills",
+    "trader",
+    "note",
+    "clientTag"
+  ],
+  "legacy_reader": "reject the hypothetical new message type unless explicitly supported",
+  "archive_policy": "retain raw framed bytes and an appropriate old decoder; route by declared type/schema/template/version",
+  "deployment": "upgrade readers before writers; log behavior changes for replay",
+  "dedup": "separate frame retry from request dedup; reject conflicting bytes",
+  "status": {
+    "frame_codec": "CODE",
+    "replay_fixture": "CODE",
+    "frame_layout": "SPEC",
+    "leader_election": "PLAN",
+    "snapshots": "PLAN"
+  },
+  "seams": {
+    "encode": "labs/l05/codec.hpp",
+    "validate": "labs/l05/worked/submission.hpp",
+    "record": "checks/l05/runner.cpp",
+    "replay": "checks/l05/runner.cpp"
+  }
+}

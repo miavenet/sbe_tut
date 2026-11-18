@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "cards": {
+    "L01-C1-P": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "pretest",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C1-W": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-01",
+      "type": null,
+      "topic": null,
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C1-C": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "completion",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L01-C1-R": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "recall",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L01-C1-T": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "transfer",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C2-P": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "pretest",
+      "topic": "topic2",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C2-W": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-01",
+      "type": null,
+      "topic": null,
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-C2-C": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "completion",
+      "topic": "topic2",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L01-C2-R": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "recall",
+      "topic": "topic2",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L01-C2-T": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "transfer",
+      "topic": "topic2",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L01-I": {
+      "kind": "CARD",
+      "lesson": "lesson-01",
+      "type": "synthesize",
+      "topic": "topic2",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-C1-P": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "pretest",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-C1-W": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-02",
+      "type": null,
+      "topic": null,
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-C1-C": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "completion",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L02-C1-R": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "recall",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L02-C1-T": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "transfer",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L02-I": {
+      "kind": "CARD",
+      "lesson": "lesson-02",
+      "type": "synthesize",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-C1-P": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "pretest",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-C1-W": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-03",
+      "type": null,
+      "topic": null,
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-C1-C": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "completion",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L03-C1-R": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "recall",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L03-C1-T": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "transfer",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L03-I": {
+      "kind": "CARD",
+      "lesson": "lesson-03",
+      "type": "synthesize",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C1-P": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "pretest",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C1-W": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-04",
+      "type": null,
+      "topic": null,
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-C1-C": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "completion",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L04-C1-R": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "recall",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L04-C1-T": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "transfer",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L04-I": {
+      "kind": "CARD",
+      "lesson": "lesson-04",
+      "type": "synthesize",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C1-P": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "pretest",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C1-W": {
+      "kind": "CONCEPT",
+      "lesson": "lesson-05",
+      "type": null,
+      "topic": null,
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-C1-C": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "completion",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L05-C1-R": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "recall",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "check(tools/driver-fixtures/checks/value.py)",
+      "RejectIf": ""
+    },
+    "L05-C1-T": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "transfer",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    },
+    "L05-I": {
+      "kind": "CARD",
+      "lesson": "lesson-05",
+      "type": "synthesize",
+      "topic": "topic1",
+      "minutes": 1,
+      "Source": "[claim: WP5-FIXTURE]",
+      "AcceptIf": "",
+      "RejectIf": ""
+    }
+  }
+}

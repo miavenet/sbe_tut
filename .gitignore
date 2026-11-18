@@ -1,0 +1,18 @@
+# Learner state and local outputs
+manifest/progress.json
+manifest/progress.json.lock
+progress*.json
+progress.md
+*.jsonl
+*.bak
+*.bak.*
+__pycache__/
+*.pyc
+.DS_Store
+.port-*/
+manifest/evidence/
+manifest/review-starters/
+manifest/review-work/
+third_party/
+labs/lib/*.jar
+labs/lib/.download.*

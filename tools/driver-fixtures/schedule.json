@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "lessons": [
+    {
+      "id": "L01",
+      "requires": [],
+      "concepts": [
+        {
+          "id": "L01-C1",
+          "pretests": [
+            "L01-C1-P"
+          ],
+          "worked": "L01-C1-W",
+          "completion": [
+            "L01-C1-C"
+          ],
+          "independent": [
+            "L01-C1-R",
+            "L01-C1-T"
+          ]
+        },
+        {
+          "id": "L01-C2",
+          "pretests": [
+            "L01-C2-P"
+          ],
+          "worked": "L01-C2-W",
+          "completion": [
+            "L01-C2-C"
+          ],
+          "independent": [
+            "L01-C2-R",
+            "L01-C2-T"
+          ]
+        }
+      ],
+      "integrate": [
+        "L01-I"
+      ]
+    },
+    {
+      "id": "L02",
+      "requires": [
+        "L01"
+      ],
+      "concepts": [
+        {
+          "id": "L02-C1",
+          "pretests": [
+            "L02-C1-P"
+          ],
+          "worked": "L02-C1-W",
+          "completion": [
+            "L02-C1-C"
+          ],
+          "independent": [
+            "L02-C1-R",
+            "L02-C1-T"
+          ]
+        }
+      ],
+      "integrate": [
+        "L02-I"
+      ]
+    },
+    {
+      "id": "L03",
+      "requires": [
+        "L02"
+      ],
+      "concepts": [
+        {
+          "id": "L03-C1",
+          "pretests": [
+            "L03-C1-P"
+          ],
+          "worked": "L03-C1-W",
+          "completion": [
+            "L03-C1-C"
+          ],
+          "independent": [
+            "L03-C1-R",
+            "L03-C1-T"
+          ]
+        }
+      ],
+      "integrate": [
+        "L03-I"
+      ]
+    },
+    {
+      "id": "L04",
+      "requires": [
+        "L03"
+      ],
+      "concepts": [
+        {
+          "id": "L04-C1",
+          "pretests": [
+            "L04-C1-P"
+          ],
+          "worked": "L04-C1-W",
+          "completion": [
+            "L04-C1-C"
+          ],
+          "independent": [
+            "L04-C1-R",
+            "L04-C1-T"
+          ]
+        }
+      ],
+      "integrate": [
+        "L04-I"
+      ]
+    },
+    {
+      "id": "L05",
+      "requires": [
+        "L04"
+      ],
+      "concepts": [
+        {
+          "id": "L05-C1",
+          "pretests": [
+            "L05-C1-P"
+          ],
+          "worked": "L05-C1-W",
+          "completion": [
+            "L05-C1-C"
+          ],
+          "independent": [
+            "L05-C1-R",
+            "L05-C1-T"
+          ]
+        }
+      ],
+      "integrate": [
+        "L05-I"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "id": "O-L01-C1",
+      "production": [
+        "L01-C1-R"
+      ],
+      "transfer": [
+        "L01-C1-T"
+      ]
+    },
+    {
+      "id": "O-L01-C2",
+      "production": [
+        "L01-C2-R"
+      ],
+      "transfer": [
+        "L01-C2-T"
+      ]
+    },
+    {
+      "id": "O-L02-C1",
+      "production": [
+        "L02-C1-R"
+      ],
+      "transfer": [
+        "L02-C1-T"
+      ]
+    },
+    {
+      "id": "O-L03-C1",
+      "production": [
+        "L03-C1-R"
+      ],
+      "transfer": [
+        "L03-C1-T"
+      ]
+    },
+    {
+      "id": "O-L04-C1",
+      "production": [
+        "L04-C1-R"
+      ],
+      "transfer": [
+        "L04-C1-T"
+      ]
+    },
+    {
+      "id": "O-L05-C1",
+      "production": [
+        "L05-C1-R"
+      ],
+      "transfer": [
+        "L05-C1-T"
+      ]
+    }
+  ]
+}

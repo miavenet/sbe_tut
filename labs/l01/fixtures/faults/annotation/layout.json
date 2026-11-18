@@ -1,0 +1,23 @@
+{
+  "header_bytes": 8,
+  "root_bytes": 34,
+  "body_bytes": 71,
+  "total_bytes": 79,
+  "price_exponent": -2,
+  "exponent_wire_bytes": 0,
+  "root_offsets": {
+    "orderId": 0,
+    "price": 8,
+    "quantity": 17,
+    "stopPrice": 20,
+    "symbol": 24,
+    "side": 32,
+    "flags": 33
+  },
+  "group_header_at": 42,
+  "group_entry_bytes": 12,
+  "trader_length_at": 70,
+  "note_length_at": 75,
+  "price_decimal": "123.45",
+  "source": "[claim: WP1-WIRE]"
+}
